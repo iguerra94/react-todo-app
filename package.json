@@ -1,0 +1,19 @@
+{
+  "name": "react-todo-app",
+  "version": "1.0.0",
+  "description": "This is a small project for doing a todo app in React.js and using Semantic UI library for styling.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iguerra94/react-todo-app.git"
+  },
+  "author": "Ivan Guerra (ivanguerra09@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iguerra94/react-todo-app/issues"
+  },
+  "homepage": "https://github.com/iguerra94/react-todo-app#readme"
+}
