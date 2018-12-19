@@ -4,7 +4,7 @@
   "description": "This is a small project for doing a todo app in React.js and using Semantic UI library for styling.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/iguerra94/react-todo-app/issues"
   },
-  "homepage": "https://github.com/iguerra94/react-todo-app#readme"
+  "homepage": "https://github.com/iguerra94/react-todo-app#readme",
+  "dependencies": {
+    "react": "16.6.3",
+    "react-dom": "16.6.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.2.0",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.4",
+    "react-hot-loader": "4.6.2",
+    "webpack": "4.27.1",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10"
+  }
 }
