@@ -13,7 +13,10 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx']
+    extensions: ['*', '.js', '.jsx'],
+    alias: {
+      '@': __dirname
+    }
   },
   output: {
     path: path.join(__dirname, '/dist'),
